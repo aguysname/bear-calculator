@@ -10,7 +10,6 @@ $(document).ready(function(){
   $("#approve").submit(function(e){
     e.preventDefault();
   });
-  console.log($("#approve .submit").first());
   $("#approve .submit").first().click(function(){
     var val=$("#approve .text").first().val();
     var num=Number(val);
